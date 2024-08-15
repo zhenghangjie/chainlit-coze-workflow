@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "type": "answer",
+      "content": "{\"long_recall_output\":[{\"content\":{\"discourse\":\"W: Jack, what are you doing in the kitchen?\\nM: I'm looking for some cookies, Mary. I'm feeling a bit hungry.\\nW: Cookies? But we just had dinner. Why are you still hungry?\\nM: (8)I had a lot of exercise today. I need some extra energy.\\nW: Well, you should eat something healthy, not just cookies.\\nM: Yeah. (8)But cookies are so delicious. I can't resist them.\\nW: How about having some fruits instead?\\nM: Hmm, that's a good idea. But I still want to have a couple of cookies first.\\nW: Oh, you are so naughty. By the way, did you finish your homework?\\nM: Not yet. I'll do it after having these cookies.\\nW: You should focus on your studies. Don't always think about eating.\\nM: I know. But I need to relax a little bit.\\n\",\"question\":\"Why does the man want to have cookies?\\nA. Because he didn't have dinner.\\nB. Because he had a lot of exercise.\\nC. Because he likes them very much.\\nWhose idea is to have some fruits?\\nA. Jack's.\\nB. Mary's.\\nC. Not mentioned.\",\"question_types\":\"长对话\",\"source\":\"Custom Generated\"},\"level\":\"B\"}],\"non_recall_output\":\"\",\"short_recall_output\":null}",
+      "content_type": "text"
+    },
+    {
+      "role": "assistant",
+      "type": "verbose",
+      "content": "{\"msg_type\":\"generate_answer_finish\",\"data\":\"\",\"from_module\":null,\"from_unit\":null}",
+      "content_type": "text"
+    },
+    {
+      "role": "assistant",
+      "type": "verbose",
+      "content": "{\"msg_type\":\"generate_answer_finish\",\"data\":\"{\\\"finish_reason\\\":0}\",\"from_module\":null,\"from_unit\":null}",
+      "content_type": "text"
+    }
+  ],
+  "conversation_id": "111",
+  "code": 0,
+  "msg": "success"
+}

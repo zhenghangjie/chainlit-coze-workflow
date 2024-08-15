@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "type": "answer",
+      "content": "Execute Fail: {\"SessionID\":0,\"ErrorCode\":\"\",\"ErrorMessage\":\"\",\"OutData\":\"\",\"Type\":\"\",\"BaseResp\":{\"StatusMessage\":\"CommonError: CommonError: InvalidEndpoint.NotFound: Error code: 404 - {'error': {'code': 'InvalidEndpoint.NotFound', 'message': 'The request targeted an endpoint that does not exist or is invalid. Request id: 021723716323717605904939fda2d1eec7e123b2d80dd3af3b5fb', 'param': '', 'type': 'NotFound'}} (code: 702112106, affect stability: true) (code: 2, affect stability: true)\",\"StatusCode\":0,\"extra\":{\"is_system_error\":\"false\",\"rpc_kerror\":\"{\\\"error_code\\\":\\\"2\\\",\\\"code_id\\\":0,\\\"code_alias\\\":\\\"\\\",\\\"no_err_meta\\\":true,\\\"cause_chain\\\":[\\\"@flow.flowservice.flow_gateway@RunFlowByApi: BError: check in upstream\\\"],\\\"user_message\\\":\\\"CommonError: CommonError: InvalidEndpoint.NotFound: Error code: 404 - {'error': {'code': 'InvalidEndpoint.NotFound', 'message': 'The request targeted an endpoint that does not exist or is invalid. Request id: 021723716323717605904939fda2d1eec7e123b2d80dd3af3b5fb', 'param': '', 'type': 'NotFound'}} (code: 702112106, affect stability: true) (code: 2, affect stability: true)\\\",\\\"with_user_msg\\\":true}\",\"stack\":\"\\nkerror.KRpcResponseCheck\\n    /opt/tiger/compile_path/pkg/mod/code.byted.org/apaas/kcommon@v1.3.1/specifications/kerror/rpc_error.go:160\\ngateway.RunFlowByAPISync\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/integration/gateway/gateway_client.go:56\\nservice.RuntimeServiceImpl.RunFlowSync\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/app/fdl_runtime/service/runtime_service.go:100\\nmain.(*FDLRuntimeServiceImpl).RunFlowSync\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/app/fdl_runtime/handler.go:22\\nfdlruntimeservice.runFlowSyncHandler\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/app/fdl_runtime/kitex_gen/lark/apaas/fdl_runtime/fdlruntimeservice/fdlruntimeservice.go:48\\nserver.(*server).invokeHandleEndpoint.func1\\n    /opt/tiger/compile_path/pkg/mod/github.com/cloudwego/kitex@v0.9.1/server/server.go:332\\nserver.newErrorHandleMW.func1.1\\n    /opt/tiger/compile_path/pkg/mod/github.com/cloudwego/kitex@v0.9.1/server/server.go:125\\nmetrics.KitexAPIMetricsWithTenantAndNamespace.func1.1\\n    /opt/tiger/compile_path/pkg/mod/code.byted.org/apaas/automation_dx_sdk@v1.0.7-0.20240122072740-01945d11ea8c/utils/metrics/method_middleware.go:31\\nuserlog.KitexAPICollectorMiddleware.func1.1\\n    /opt/tiger/compile_path/pkg/mod/code.byted.org/apaas/automation_dx_sdk@v1.0.7-0.20240122072740-01945d11ea8c/userlog/middleware.go:53\\nmiddleware.PrintRequestAndResponseMiddleware.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:54\\nmiddleware.RemoteServiceCallLogMW.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:145\\nmiddleware.ContextStressKeyMiddleware.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:71\\nmiddleware.KCtxMiddleware.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:100\\nmiddleware.PrintPanicStackMiddleware.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:128\\nmiddleware.MultiBranchMiddleware.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:191\\nmiddleware.InitMetadataSdkCacheVersion.func1\\n    /opt/tiger/compile_path/src/code.byted.org/apaas/fdl/infra/middleware/middleware.go:182\"},\"KStatusCode\":\"2\"}} ",
+      "content_type": "text"
+    },
+    {
+      "role": "assistant",
+      "type": "verbose",
+      "content": "{\"msg_type\":\"generate_answer_finish\",\"data\":\"\",\"from_module\":null,\"from_unit\":null}",
+      "content_type": "text"
+    },
+    {
+      "role": "assistant",
+      "type": "verbose",
+      "content": "{\"msg_type\":\"generate_answer_finish\",\"data\":\"{\\\"finish_reason\\\":0}\",\"from_module\":null,\"from_unit\":null}",
+      "content_type": "text"
+    }
+  ],
+  "conversation_id": "111",
+  "code": 0,
+  "msg": "success"
+}
