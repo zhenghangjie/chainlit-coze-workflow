@@ -40,6 +40,7 @@ def validate_and_format_json(json_data):
         
         # 遍历三个可能的键
         for key in ['long_recall_output', 'non_recall_output', 'short_recall_output']:
+            # TODO 单独处理非召回模式，召回模式均为批处理
             if key in content_json and content_json[key]:
                 output_key = key
                 output_value = content_json[key]

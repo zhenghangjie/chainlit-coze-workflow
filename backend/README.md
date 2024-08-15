@@ -13,3 +13,15 @@ chainlit run main.py
 # or
 python3 -m chainlit run main.py -w
 ```
+
+``` shell
+# FastAPI app
+python3 -m uvicorn app:app --host 0.0.0.0 --port 80
+```
+
+``` shell
+# init frontend
+# node 22.6.0
+cd frontend
+npm i
+```
