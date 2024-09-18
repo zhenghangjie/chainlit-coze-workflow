@@ -1,0 +1,18 @@
+{
+  "content": "W: Hey, did you manage to finish the project report last night? M: Yeah, but it was tough. I had to stay up really late.",
+  "items": [
+    {
+      "stem": "What can be inferred about the man?",
+      "options": {
+        "A": "He submitted the report early.",
+        "B": "He found the project easy.",
+        "C": "He worked late to complete the task."
+      },
+      "answer": "C",
+      "analysis": {
+        "topic": "对所听内容做出推断题",
+        "details": "原文：\"Yeah, but it was tough. I had to stay up really late.\" 译文：\"是的，但是很艰难。我不得不熬夜到很晚。\" 说明：男士提到完成报告很艰难并且熬夜完成，可以推断他工作到很晚才完成任务。"
+      }
+    }
+  ]
+}

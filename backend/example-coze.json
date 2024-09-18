@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "type": "answer",
+      "content": "{\"long_recall_output\":null,\"non_recall_output\":\"\",\"short_recall_output\":{\"analysis\":\"C。事实细节题。女士问男士是否愿意和她一起去看电影，男士说今晚有作业要做。女士说那明天去。男士同意。\",\"discourse\":\"W: Would you like to go to the movies with me?\\nM: I have homework to do tonight.\\nW: How about tomorrow?\\nM: OK.\",\"level\":\"B\",\"question\":\"When will they go to the movies?\\nA. Tonight.\\nB. Tomorrow.\\nC. Not decided.\",\"question_types\":\"短对话\",\"source\":\"自编\"}}",
+      "content_type": "text"
+    },
+    {
+      "role": "assistant",
+      "type": "verbose",
+      "content": "{\"msg_type\":\"generate_answer_finish\",\"data\":\"\",\"from_module\":null,\"from_unit\":null}",
+      "content_type": "text"
+    },
+    {
+      "role": "assistant",
+      "type": "verbose",
+      "content": "{\"msg_type\":\"generate_answer_finish\",\"data\":\"{\\\"finish_reason\\\":0}\",\"from_module\":null,\"from_unit\":null}",
+      "content_type": "text"
+    }
+  ],
+  "conversation_id": "123",
+  "code": 0,
+  "msg": "success"
+}

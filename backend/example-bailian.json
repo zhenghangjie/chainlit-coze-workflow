@@ -1,0 +1,18 @@
+{
+  "content": "W: Have you decided on your college major yet? M: Not yet. I'm considering either biology or English literature. Both are fascinating to me.",
+  "items": [
+    {
+      "stem": "What is the man considering?",
+      "options": {
+        "A": "Choosing between two job offers.",
+        "B": "Deciding between two college majors.",
+        "C": "Selecting courses for next semester."
+      },
+      "answer": "B",
+      "analysis": {
+        "topic": "获取事实性细节",
+        "details": "W: Have you decided on your college major yet? (你已经决定你的大学专业了吗？) M: Not yet. I'm considering either biology or English literature. (还没有。我正在考虑生物学或英国文学。) 由此可知，男士正在考虑选择两个大学专业中的一个。"
+      }
+    }
+  ]
+}

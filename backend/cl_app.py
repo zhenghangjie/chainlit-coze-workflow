@@ -1,7 +1,6 @@
 import chainlit as cl
 import json
 import logging
-import demo
 import coze_caller
 import bailian_caller
 
@@ -33,7 +32,7 @@ async def on_message(message: cl.Message):
     ).send()
 
     # Call coze agent
-    await cl.sleep(2)
+    # await cl.sleep(2)
     coze_answer = await coze_caller.call_agent_app(message.content)
     final_answer.content = json.dumps(
         {
@@ -43,7 +42,7 @@ async def on_message(message: cl.Message):
     )
     await final_answer.update()
     # Call bailian agent
-    await cl.sleep(2)
+    # await cl.sleep(2)
     bailian_answer = bailian_caller.call_agent_app(message.content)
     final_answer.content = json.dumps(
         {
